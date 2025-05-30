@@ -1,0 +1,70 @@
+Hyperparameter Tuning Results
+----------------------------
+Best Parameters: {'C': 5, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.02}
+Best Cross-Validation F1 Score: 0.9524
+
+All tested combinations:
+Params: {'C': 0.1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.01}, Mean F1: 0.0000, Std F1: 0.0000
+Params: {'C': 0.1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.02}, Mean F1: 0.6042, Std F1: 0.0976
+Params: {'C': 0.1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9273, Std F1: 0.0427
+Params: {'C': 0.1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9419, Std F1: 0.0465
+Params: {'C': 0.1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.01}, Mean F1: 0.0000, Std F1: 0.0000
+Params: {'C': 0.1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.02}, Mean F1: 0.2513, Std F1: 0.2104
+Params: {'C': 0.1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9111, Std F1: 0.0444
+Params: {'C': 0.1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9228, Std F1: 0.0448
+Params: {'C': 0.1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.01}, Mean F1: 0.0000, Std F1: 0.0000
+Params: {'C': 0.1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.02}, Mean F1: 0.0000, Std F1: 0.0000
+Params: {'C': 0.1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.05}, Mean F1: 0.7070, Std F1: 0.1260
+Params: {'C': 0.1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8497, Std F1: 0.0320
+Params: {'C': 0.1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.01}, Mean F1: 0.0000, Std F1: 0.0000
+Params: {'C': 0.1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.02}, Mean F1: 0.0000, Std F1: 0.0000
+Params: {'C': 0.1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.05}, Mean F1: 0.2733, Std F1: 0.2355
+Params: {'C': 0.1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.1}, Mean F1: 0.6546, Std F1: 0.1280
+Params: {'C': 1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.01}, Mean F1: 0.9419, Std F1: 0.0465
+Params: {'C': 1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.02}, Mean F1: 0.9094, Std F1: 0.0579
+Params: {'C': 1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9419, Std F1: 0.0465
+Params: {'C': 1, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9419, Std F1: 0.0465
+Params: {'C': 1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.01}, Mean F1: 0.9135, Std F1: 0.0547
+Params: {'C': 1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.02}, Mean F1: 0.9158, Std F1: 0.0632
+Params: {'C': 1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9094, Std F1: 0.0579
+Params: {'C': 1, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9209, Std F1: 0.0371
+Params: {'C': 1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.01}, Mean F1: 0.8653, Std F1: 0.0587
+Params: {'C': 1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.02}, Mean F1: 0.8899, Std F1: 0.0516
+Params: {'C': 1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8606, Std F1: 0.0627
+Params: {'C': 1, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8606, Std F1: 0.0627
+Params: {'C': 1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.01}, Mean F1: 0.7941, Std F1: 0.0360
+Params: {'C': 1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.02}, Mean F1: 0.7761, Std F1: 0.0450
+Params: {'C': 1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8168, Std F1: 0.0604
+Params: {'C': 1, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8442, Std F1: 0.0420
+Params: {'C': 5, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.01}, Mean F1: 0.9314, Std F1: 0.0488
+Params: {'C': 5, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.02}, Mean F1: 0.9524, Std F1: 0.0522
+Params: {'C': 5, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9341, Std F1: 0.0610
+Params: {'C': 5, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9341, Std F1: 0.0610
+Params: {'C': 5, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.01}, Mean F1: 0.9209, Std F1: 0.0371
+Params: {'C': 5, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.02}, Mean F1: 0.9093, Std F1: 0.0490
+Params: {'C': 5, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9015, Std F1: 0.0588
+Params: {'C': 5, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8964, Std F1: 0.0692
+Params: {'C': 5, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.01}, Mean F1: 0.8837, Std F1: 0.0633
+Params: {'C': 5, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.02}, Mean F1: 0.8720, Std F1: 0.0554
+Params: {'C': 5, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8589, Std F1: 0.0576
+Params: {'C': 5, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8837, Std F1: 0.0633
+Params: {'C': 5, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.01}, Mean F1: 0.8284, Std F1: 0.0691
+Params: {'C': 5, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.02}, Mean F1: 0.8558, Std F1: 0.0475
+Params: {'C': 5, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8442, Std F1: 0.0420
+Params: {'C': 5, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8559, Std F1: 0.0580
+Params: {'C': 10, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.01}, Mean F1: 0.9419, Std F1: 0.0562
+Params: {'C': 10, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.02}, Mean F1: 0.9341, Std F1: 0.0610
+Params: {'C': 10, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.05}, Mean F1: 0.9341, Std F1: 0.0610
+Params: {'C': 10, 'class_weight': {0: 2, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9235, Std F1: 0.0527
+Params: {'C': 10, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.01}, Mean F1: 0.9093, Std F1: 0.0490
+Params: {'C': 10, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.02}, Mean F1: 0.9015, Std F1: 0.0588
+Params: {'C': 10, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8886, Std F1: 0.0751
+Params: {'C': 10, 'class_weight': {0: 3, 1: 1}, 'gamma': 0.1}, Mean F1: 0.9015, Std F1: 0.0588
+Params: {'C': 10, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.01}, Mean F1: 0.8720, Std F1: 0.0554
+Params: {'C': 10, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.02}, Mean F1: 0.8589, Std F1: 0.0576
+Params: {'C': 10, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8876, Std F1: 0.0743
+Params: {'C': 10, 'class_weight': {0: 5, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8851, Std F1: 0.0581
+Params: {'C': 10, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.01}, Mean F1: 0.8558, Std F1: 0.0475
+Params: {'C': 10, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.02}, Mean F1: 0.8442, Std F1: 0.0420
+Params: {'C': 10, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.05}, Mean F1: 0.8690, Std F1: 0.0565
+Params: {'C': 10, 'class_weight': {0: 10, 1: 1}, 'gamma': 0.1}, Mean F1: 0.8688, Std F1: 0.0448
